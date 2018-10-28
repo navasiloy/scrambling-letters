@@ -1,6 +1,4 @@
 
-const Scrambler = (function () {	
-	// main fn - exposed to window
 	const scramble = function(scrambleArgs) {
 		try {
 			/*** helper functions ***/
@@ -85,6 +83,4 @@ const Scrambler = (function () {
 		} 
 	}; // end Scramble
 
-	return scramble;
-	
-})();
+export default scramble;
